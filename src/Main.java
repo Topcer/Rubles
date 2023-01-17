@@ -7,7 +7,9 @@ public class Main {
 
         if (pay > 1000) {
             bonus = pay / 100;
-        } else bonus = 0;
+        } else {
+            bonus = 0;
+        }
 
         int total = balance + pay + bonus;
 
